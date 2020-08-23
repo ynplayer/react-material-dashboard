@@ -36,6 +36,7 @@ const Dashboard = () => {
           container
           spacing={3}
         >
+    <div class="gcse-search"></div>
           <Grid
             item
             lg={3}
