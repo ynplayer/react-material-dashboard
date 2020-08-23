@@ -33,7 +33,8 @@ const Dashboard = () => {
     >
       <Container maxWidth={false}>
     tes
-    <div class="gcse-search"></div>    
+    <script async src="https://cse.google.com/cse.js?cx=fa7ed3f72f5e4a008"></script>
+<div class="gcse-search"></div>
     
       </Container>
     </Page>
