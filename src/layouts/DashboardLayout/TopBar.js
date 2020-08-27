@@ -41,6 +41,7 @@ const TopBar = ({
       <Toolbar>
         <RouterLink to="/">
           <Logo />
+𝕭𝖆𝖐𝖚𝖑𝖆𝖓
         </RouterLink>
         <Box flexGrow={1} />
         <Hidden mdDown>
