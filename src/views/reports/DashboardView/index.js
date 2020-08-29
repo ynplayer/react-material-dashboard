@@ -32,8 +32,7 @@ const Dashboard = () => {
       title="Dashboard"
     >
       <Container maxWidth={false}>
-    <script>
-	  
+    <script>	  
 fetch("https://ynplayer.github.io/sh/demo/user/demos/static/search.html")
   .then(response => {
     return response.text()
@@ -42,6 +41,7 @@ fetch("https://ynplayer.github.io/sh/demo/user/demos/static/search.html")
     document.querySelector("yan").innerHTML = data;
   });
 </script>
+
     <yan></yan>
       </Container>
     </Page>
