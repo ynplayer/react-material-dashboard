@@ -32,10 +32,17 @@ const Dashboard = () => {
       title="Dashboard"
     >
       <Container maxWidth={false}>
-    <br/><br/>
-    <script async src="https://cse.google.com/cse.js?cx=fa7ed3f72f5e4a008"></script>
-<div class="gcse-search"></div>
-    
+    <script>
+	  
+fetch("https://ynplayer.github.io/sh/demo/user/demos/static/search.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("yan").innerHTML = data;
+  });
+</script>
+    <yan></yan>
       </Container>
     </Page>
   );
